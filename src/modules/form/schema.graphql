@@ -1,5 +1,5 @@
 """
-The avilable form types in zillow
+The avilable form types in Royal Estate
 """
 enum FormType {
   CONTACT_FORM

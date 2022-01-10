@@ -1,5 +1,5 @@
 """
-The current status of the property on Zillow
+The current status of the property
 """
 enum HomeStatus {
   FOR_SALE
@@ -18,7 +18,7 @@ enum HomeType {
 
 """
 A house type that contains all the information about a house
-that is listed on zillow
+that is listed 
 """
 type House {
   "The house's unique id"
@@ -59,7 +59,7 @@ type House {
   homeType: HomeType
   "The user who listed the property"
   lister: User!
-  "The amount of days since the home was listed on zillow"
+  "The amount of days since the home was listed"
   daysListed: Int!
   "A list of images belonging to a house"
   images: [Image]!

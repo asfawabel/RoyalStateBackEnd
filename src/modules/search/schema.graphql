@@ -34,9 +34,9 @@ input searchHouseFilterInput {
   minYearBuilt: String
   "Max Year Built always should be a valid year"
   maxYearBuilt: String
-  "Min Days on Zillow always should be positive"
+  "Min Days on Site always should be positive"
   minDaysOnZillow: Int
-  "Max Days on Zillow  always should be positive"
+  "Max Days on royal  always should be positive"
   maxDaysOnZillow: Int
   "Min SquareMeter always should be positive"
   minSquareMeter: Int
@@ -85,9 +85,9 @@ type searchHouseFilter {
   minYearBuilt: String
   "Max Year Built always should be a valid year"
   maxYearBuilt: String
-  "Min Days on Zillow always should be positive"
+  "Min Days always should be positive"
   minDaysOnZillow: Int
-  "Max Days on Zillow  always should be positive"
+  "Max Days always should be positive"
   maxDaysOnZillow: Int
   "Min SquareMeter always should be positive"
   minSquareMeter: Int

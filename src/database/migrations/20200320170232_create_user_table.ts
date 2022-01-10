@@ -9,7 +9,7 @@ export async function up(knex: Knex): Promise<any> {
     table.string("lastName");
     table.boolean("isVerified").defaultTo(false);
     table.string("username").notNullable();
-    table.string("image").defaultTo("zillow/user-images/default");
+    table.string("image").defaultTo("royal/user-images/default");
     table
       .integer("role")
       .unsigned()

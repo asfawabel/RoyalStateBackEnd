@@ -5,7 +5,7 @@ export = {
   development: {
     client: "pg",
     connection: {
-      database: "zillow",
+      database: "royalestate",
       user: "postgres",
       password: "postgres",
     },
