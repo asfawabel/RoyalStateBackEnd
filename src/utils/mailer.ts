@@ -17,11 +17,11 @@ const sendPasswordEmail = async (
     });
 
     var mailOptions = {
-      from: '"Zillow-Clone" <fitsumayalew047@example.com>', // sender address
+      from: '"Royal Estate" <abelasfaw000@gmail.com>', // sender address
       to: email, // list of receivers
-      subject: "Zillow-Clone reset password", // Subject line
+      subject: "Royal Estate reset password", // Subject line
       html:
-        `<b>Zillow-Clone Reset Password</b>
+        `<b>Royal Estate Reset Password</b>
             <p>Enter this token when asked: ` +
         token +
         "</p>", // html body
@@ -50,11 +50,11 @@ const sendVerifyEmail = async (email: string, token: string): Promise<any> => {
     });
 
     var mailOptions = {
-      from: '"Zillow-Clone" <fitsumayalew047@example.com>', // sender address
+      from: '"Royal Estate" <abelasfaw000@gmail.com>', // sender address
       to: email, // list of receivers
-      subject: "Zillow-Clone verify email", // Subject line
+      subject: "Royal Estate verify email", // Subject line
       html:
-        `<b>Zillow-Clone Verify Email</b>
+        `<b>Royal Estate Verify Email</b>
             <p>Enter this token when asked: ` +
         token +
         "</p>", // html body
